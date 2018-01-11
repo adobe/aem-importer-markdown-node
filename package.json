@@ -6,10 +6,13 @@
   "bin": {
     "aemimport": "lib/cli.js"
   },
-  "scripts": {},
+  "scripts": {
+    "prepare": "download --out importer.jar https://repo1.maven.org/maven2/com/adobe/aem/aem-importer-markdown/0.0.11/aem-importer-markdown-0.0.11-jar-with-dependencies.jar"
+  },
   "dependencies": {},
   "devDependencies": {
-    "npm-snapshot": "^1.0.3"
+    "npm-snapshot": "^1.0.3",
+    "download-cli": "^1.0.5"
   },
   "engines": {
     "node": ">= 6.0.0"
