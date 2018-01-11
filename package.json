@@ -1,0 +1,26 @@
+{
+  "name": "@adobe/aem-importer-markdown-node",
+  "description": "Import Markdown documentation into Adobe Experience Manager.",
+  "version": "0.1.0",
+  "main": "lib/import.js",
+  "bin": {
+    "jsonschema2md": "lib/cli.js"
+  },
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "npm-snapshot": "^1.0.3"
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adobe/aem-importer-markdown-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adobe/aem-importer-markdown-node/issues"
+  },
+  "license": "Apache-2.0",
+  "author": ""
+}
