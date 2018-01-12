@@ -7,9 +7,12 @@
     "aemimport": "lib/cli.js"
   },
   "scripts": {
-    "prepare": "download --out importer.jar https://repo1.maven.org/maven2/com/adobe/aem/aem-importer-markdown/0.0.11/aem-importer-markdown-0.0.11-jar-with-dependencies.jar"
+    "prepare": "download --out lib https://repo1.maven.org/maven2/com/adobe/aem/aem-importer-markdown/0.0.11/aem-importer-markdown-0.0.11-jar-with-dependencies.jar",
+    "start": "node lib/cli.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "shelljs": "^0.8.0"
+  },
   "devDependencies": {
     "npm-snapshot": "^1.0.3",
     "download-cli": "^1.0.5"
